@@ -1,0 +1,35 @@
+…or create a new repository on the command line
+echo "# qwertyuiopasdfghjklzxcvbnm" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/tempiltin/qwertyuiopasdfghjklzxcvbnm.git
+git push -u origin main
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/tempiltin/qwertyuiopasdfghjklzxcvbnm.git
+git branch -M main
+git push -u origin main
+
+
+
+
+
+
+…yoki buyruq satrida yangi ombor yarating
+echo "# qwertyuiopasdfghjklzxcvbnm" >> README.md 
+git init 
+git add README.md 
+git commit -m "birinchi commit" 
+git filiali -M main 
+git remote qo'shish kelib chiqishi https://github.com/tempiltin/qwertyuiopasdfghbjz
+
+
+ -xwertyuiopasdfghbjz - u kelib chiqishi asosiy
+…yoki mavjud omborni buyruq satridan suring
+
+git remote add origin https://github.com/tempiltin/qwertyuiopasdfghjklzxcvbnm.git
+ git filiali -M main 
+git push -u origin main

@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+nav{
+  width: 100%;
+  background: #DE491D;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+  .restoranName{
+    color: white;
+    font-size: 16px;
+  }
+  .stolName{
+    padding-top: 10px;
+    color: white;
+  }
+}
+.foodCard{
+  width: 170px;
+  height: 265px;
+  background: #DE491D;
+  border-radius: 30px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  .foodCardBody{
+   width: 80%;
+   margin: auto;
+  }
+  .foodName{
+    color: white;
+  }
+  .loaddot{
+    width: 100%;
+    height: 70px;
+  }
+}
+.categoryName{
+  font-size: 24px;
+  font-weight: 900;
+  background: #E4E4E4;
+  margin: 10px 0;
+  padding: 5px;
+  text-align: center;
+}
+.OnFoodWeiw{
+  width: 100%;
+  height: 70%;
+  background: white;
+  z-index: 100000;
+  position: fixed;
+  transition: 800ms;
+  // border: 1px solid red;
+  
+}
+.OnFoodWeiwTrue{
+  bottom: 0;
+  left: 0;
+  transition: 800ms;
+}
+.OnFoodWeiwFalse{
+  bottom: -110%;
+  left: 0;
+  transition: 800ms;
+}
